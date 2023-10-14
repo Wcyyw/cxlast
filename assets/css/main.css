@@ -287,7 +287,7 @@ input, select, textarea {
 /* Row */
 
 	.logo {
-		width: 30px;      /* 根据需要调整宽度 */
+		width: 100px;      /* 根据需要调整宽度 */
 		height: auto;      /* 让高度与宽度成比例 */
 		position: static;   /* 固定定位 */
 		top: 10px;         /* 距离页面顶部的距离 */
