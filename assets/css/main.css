@@ -286,6 +286,17 @@ input, select, textarea {
 
 /* Row */
 
+	.logo {
+		width: 100px;      /* 根据需要调整宽度 */
+		height: auto;      /* 让高度与宽度成比例 */
+		position: static;   /* 固定定位 */
+		top: 10px;         /* 距离页面顶部的距离 */
+		left: 10px;        /* 距离页面左侧的距离 */
+		z-index: 9999;     /* 保持在其他元素之上 */
+	}
+
+
+
 	.row {
 		display: flex;
 		flex-wrap: wrap;
@@ -2817,8 +2828,8 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #21b2a6;
-			color: #c8ece9;
+			background-color: #ffffff89;
+			color: #ffffff;
 		}
 
 			.wrapper.style1 strong, .wrapper.style1 b {
